@@ -1,0 +1,42 @@
+.hero_textBox{
+    flex-grow: 1;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    /* width: 20%; */
+    height: 80%;
+    
+    h1{
+        font-size: 4.5rem;
+        /* line-height: 4.5rem; */
+        font-weight: 900;
+        width: 100%;
+        /* max-width: 11ch; */
+        font-family: "DM Sans", sans-serif;
+        color: #000000; 
+    }
+
+    button{
+        background-color: black;
+        color: aliceblue;
+        padding: 1rem 1.75rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 0px;
+        cursor: pointer;
+    }
+    
+
+    p{
+        width: 100%;
+        max-width: 44ch;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #706e6e;
+        line-height: 1.75rem;
+          }
+    
+}

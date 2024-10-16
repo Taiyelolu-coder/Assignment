@@ -1,0 +1,14 @@
+
+
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:20px;
+    padding: 20px 120px;
+}
+.text-footer{
+    display: flex;
+    flex-direction: column;
+}
