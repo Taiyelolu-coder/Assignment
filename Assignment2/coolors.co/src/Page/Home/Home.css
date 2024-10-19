@@ -1,0 +1,26 @@
+.AllApps{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap:25px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.Home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+@media (max-width: 520px){
+    .AllApps{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #hero-image{
+        width: 98%;
+        padding: 20px;
+    }
+} 

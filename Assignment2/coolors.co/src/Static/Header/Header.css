@@ -1,0 +1,61 @@
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+
+#hamburger{
+    display: none;
+}
+.headContainer span{
+    color: #ff0096;
+}
+
+
+#cta{
+    width: 75px;
+    height: 35px; 
+    border: none;
+    border-radius: 10px;
+    background-color: #0066ff;
+    color: white;
+    /* padding: 8px; */
+    font-size: 14px;
+    font-weight: 550;
+}
+
+nav{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+@media (max-width: 520px){
+
+
+  .headContainer{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+    #hamburger{
+    display: block;
+  }
+   .navBar{
+    display: none;
+   }
+   #Logo{
+    margin-right: 150px;
+   }
+}

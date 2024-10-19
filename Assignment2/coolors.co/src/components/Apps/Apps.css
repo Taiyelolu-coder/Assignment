@@ -1,0 +1,37 @@
+.AppCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 210px;
+    height: 210px;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* padding-top: 30px; */
+    padding-top: 40px;
+    
+    img{
+        width: 40px;
+    } 
+
+    h1{
+        font-size:25px ;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 18px;
+        text-align: center;
+        line-height: 3ch;
+    }
+}
+
+
+@media (max-width: 520px){
+  .AppCard{
+    width: 90%;
+    
+  }
+}

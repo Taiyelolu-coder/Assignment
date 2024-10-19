@@ -1,0 +1,37 @@
+.Comp-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+.Comp-image{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:60px;
+}
+
+.Comp-image img{
+
+    width: 60px;
+}
+
+@media (max-width: 520px) {
+
+    
+    .Comp-image{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
